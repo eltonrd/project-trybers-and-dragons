@@ -572,7 +572,7 @@ As dicas para completar essa *quest* são:
   - O atributo `energy` deve ser do tipo `Energy`;
   - Deve-se receber um parâmetro `name` no construtor, este será usado para dar nome ao seu personagem;
   - Devem ser inicializados no construtor:
-    - `race` por padrão com uma instância de `Elf`;
+    - `race` por padrão com uma instância de `Elf` - inicializada com o `name` recebido e o valor 10 para `dexterity`;
     - `archetype` por padrão com uma instância de `Mage`;
     - `maxLifePoints` por padrão com metade do `maxLifePoints` da raça instanciada;
     - `lifePoints` por padrão com o mesmo valor de `maxLifePoints` da classe;
